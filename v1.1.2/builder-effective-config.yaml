@@ -1,0 +1,25 @@
+directories:
+  output: release
+  buildResources: build
+appId: com.boulot.app
+artifactName: boulot-setup-${version}.${ext}
+productName: Boulot
+icon: boulot_icon.ico
+files:
+  - filter:
+      - package.json
+      - out/**/*
+      - node_modules/**/*
+      - '!license-BR-Greenfild-Park.json'
+extraResources:
+  - from: boulot_icon.ico
+    to: boulot_icon.ico
+asarUnpack:
+  - node_modules/better-sqlite3/**/*
+win:
+  target:
+    - nsis
+nsis:
+  oneClick: false
+  allowToChangeInstallationDirectory: true
+electronVersion: 33.4.11
