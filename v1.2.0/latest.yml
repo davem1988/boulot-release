@@ -1,0 +1,8 @@
+version: 1.2.0
+files:
+  - url: boulot-setup-1.2.0.exe
+    sha512: bwPn0BCJDV1SLzZsDv/mDjc9r4yOD/CrKif7vxKyJmnypT9muFGCMPpUqRyda9Axw4ZUt+zCAx/1uQEtBxW+Uw==
+    size: 95465139
+path: boulot-setup-1.2.0.exe
+sha512: bwPn0BCJDV1SLzZsDv/mDjc9r4yOD/CrKif7vxKyJmnypT9muFGCMPpUqRyda9Axw4ZUt+zCAx/1uQEtBxW+Uw==
+releaseDate: '2026-04-13T15:56:54.773Z'
